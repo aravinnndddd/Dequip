@@ -56,7 +56,8 @@ function App() {
           How I Made <span className="highlight"> ₹324,000+</span> With {" "} 
             <span className="highlight">Faceless </span> Instagram CashPages 
           </h1>
-          <p className="subtitle " id="doThe">And How You Can Do The SAME!</p>
+          <p className="subtitle " id="doThe" ><b>And How You Can Do The SAME!</b></p>
+          <p className="subtitle" id="sub2" >Watch The <b>Complete</b> Video Below</p>
         </div>
 
         {/* Video Container */}
