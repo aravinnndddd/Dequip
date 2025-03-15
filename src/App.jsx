@@ -3,6 +3,7 @@ import { Send } from "lucide-react";
 import "./App.css"; // Import the CSS file
 import vdo from "../public/vdo.mp4"
 import poster from "../public/poster.png"
+import logo2 from "../public/logo2.png"
 function App() {
   const [time, setTime] = useState({ hours: 0, minutes: 4, seconds: 8 });
   const [isTimerComplete, setIsTimerComplete] = useState(false);
@@ -41,18 +42,18 @@ function App() {
       <div className="container">
         {/* Logo */}
         <div className="logo">
-          <Send className="logo-icon" />
-          <span className="logo-text">AffiliatePro</span>
+        
+          <img className="logo-img" src={logo2} alt="logo"  />
         </div>
 
         {/* Main Content */}
         <div>
-          <h2 className="subtitle">Limited Time FREE Training Reveals:</h2>
+          <h2 className="subtitle">Limited Time Training Reveals:</h2>
           <h1 className="main-title">
-            How I Made <span className="highlight">$324,000+</span> With Affiliate Marketing On{" "}
-            <span className="highlight">Instagram</span>
+          How To Make <span className="highlight"> Money </span> With {" "} 
+            <span className="highlight">Instagram CashPages</span> Without Any Experience
           </h1>
-          <p className="subtitle">And How You Can Do The Same For FREE!</p>
+          <p className="subtitle">And How You Can Do The SAME!</p>
         </div>
 
         {/* Video Container */}

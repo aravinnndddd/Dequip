@@ -1,5 +1,17 @@
 /* styles.css */
+@font-face {
+  font-family: MontserratB;
+  src: url("montserratbold.ttf");
+}
+@font-face {
+  font-family: MontserratR;
+  src: url("montserratregular.ttf");
+}
+*{
+  font-family: MontserratB;
+}
 body{
+
   margin:0;
 }
 /* Background and text color */
@@ -28,29 +40,28 @@ body{
   margin-bottom: 3rem;
 }
 
-.logo-icon {
-  width: 2rem;
-  height: 2rem;
-  color: #3b82f6;
-}
 
-.logo-text {
-  font-size: 1.5rem;
-  font-weight: bold;
+
+.logo-img {
+  height: 40px;
+  width: 150px;
 }
 
 /* Headings */
 .main-title {
+
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
 }
 
 .highlight {
-  color: #3b82f6;
+  
+  color: #3f89ff;
 }
 
 .subtitle {
+  font-family: MontserratB;
   font-size: 1.25rem;
   margin-bottom: 2rem;
 }
