@@ -50,10 +50,13 @@ function App() {
         <div>
           <h2 className="subtitle">Limited Time Training Reveals:</h2>
           <h1 className="main-title">
-          How To Make <span className="highlight"> Money </span> With {" "} 
-            <span className="highlight">Instagram CashPages</span> Without Any Experience
+
+          
+
+          How I Made <span className="highlight"> ₹324,000+</span> With {" "} 
+            <span className="highlight">Faceless </span> Instagram CashPages 
           </h1>
-          <p className="subtitle">And How You Can Do The SAME!</p>
+          <p className="subtitle " id="doThe">And How You Can Do The SAME!</p>
         </div>
 
         {/* Video Container */}
@@ -84,8 +87,8 @@ function App() {
         {/* CTA Button */}
         {isTimerComplete && (
           <div>
-            <a href="#" className="cta-button">
-              Click Here To Join
+            <a href="https://www.youtube.com" className="cta-button">
+              Buy now
             </a>
           </div>
         )}

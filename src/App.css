@@ -9,9 +9,10 @@
 }
 *{
   font-family: MontserratB;
+
 }
 body{
-
+ 
   margin:0;
 }
 /* Background and text color */
@@ -27,7 +28,7 @@ body{
 /* Container */
 .container {
   max-width: 64rem;
-  padding: 3rem 1rem;
+  padding: 2rem 1rem;
   text-align: center;
 }
 
@@ -36,39 +37,42 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
-  margin-bottom: 3rem;
+  
+
 }
 
 
 
 .logo-img {
-  height: 40px;
-  width: 150px;
+  height: 20px;
+  width: 80px;
+  margin-bottom: 20px;
 }
 
 /* Headings */
 .main-title {
-
-  font-size: 2.5rem;
+  margin: 0 0 10px;
+  font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 1.5rem;
+
 }
 
 .highlight {
-  
   color: #3f89ff;
 }
-
+#doThe{
+  margin-bottom: 10px;
+}
 .subtitle {
-  font-family: MontserratB;
-  font-size: 1.25rem;
-  margin-bottom: 2rem;
+  margin: 0 0;
+  font-family: MontserratR;
+  font-size: .7rem;
 }
 
 /* Video */
 .video-container {
   aspect-ratio: 16 / 9;
+  
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
@@ -78,6 +82,7 @@ body{
 }
 
 .video-container video {
+  
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -87,44 +92,44 @@ body{
 .timer-container {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   margin-top: 2rem;
 }
 
 .timer-box {
+  
   text-align: center;
 }
 
 .timer-circle {
-  width: 4rem;
-  height: 4rem;
+  width: 2rem;
+  height: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 4px solid #3b82f6;
-  background: rgba(0, 0, 0, 0.5);
+  border: 4px solid #ffffff;
+  background: rgba(0, 0, 0, 0);
   backdrop-filter: blur(5px);
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
 .timer-label {
   margin-top: 0.5rem;
-  font-size: 0.875rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
 }
 
 /* CTA Button */
 .cta-button {
   display: inline-block;
-  margin-top: 2rem;
+  margin-top: 1rem;
   background: linear-gradient(to right, #3b82f6, #2563eb);
   color: white;
-  font-size: 1.25rem;
-  font-weight: bold;
-  padding: 1rem 2rem;
-  border-radius: 999px;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  border-radius: 9px;
   transition: all 0.3s ease-in-out;
   text-decoration: none;
   box-shadow: 0px 5px 15px rgba(59, 130, 246, 0.4);
@@ -133,4 +138,13 @@ body{
 .cta-button:hover {
   background: linear-gradient(to right, #2563eb, #1e40af);
   transform: scale(1.05);
+}
+
+@media (max-width: 488px) {
+  .main-title {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  
+  }
 }
