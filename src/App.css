@@ -1,11 +1,11 @@
 /* styles.css */
 @font-face {
   font-family: MontserratB;
-  src: url("montserratbold.ttf");
+  src: url("./src/assets/montserratbold.ttf");
 }
 @font-face {
   font-family: MontserratR;
-  src: url("montserratregular.ttf");
+  src: url("./src/assets/montserratregular.ttf");
 }
 *{
   font-family: MontserratB;
@@ -17,7 +17,8 @@ body{
 }
 /* Background and text color */
 .app-container {
-  min-height: 100vh;
+  height: 160vh;
+  padding: 0;
   background: linear-gradient(to bottom right, black, black, #1e3a8a);
   color: white;
   display: flex;
@@ -27,8 +28,10 @@ body{
 
 /* Container */
 .container {
+  position: absolute;
+  top:20px;
   max-width: 64rem;
-  padding: 2rem 1rem;
+  padding: 0rem 1rem;
   text-align: center;
 }
 
@@ -44,8 +47,8 @@ body{
 
 
 .logo-img {
-  height: 20px;
-  width: 80px;
+  height: 30px;
+  width: 100px;
   margin-bottom: 20px;
 }
 
@@ -147,4 +150,7 @@ body{
     font-weight: bold;
   
   }
+  .logo-img {
+    height: 20px;
+    width: 60px;}
 }

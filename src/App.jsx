@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Send } from "lucide-react";
 import "./App.css"; // Import the CSS file
 import vdo from "../public/vdo.mp4"
-import poster from "../public/poster.png"
+import poster from "../public/poster.jpg"
 import logo2 from "../public/logo2.png"
 function App() {
   const [time, setTime] = useState({ hours: 0, minutes: 4, seconds: 8 });
