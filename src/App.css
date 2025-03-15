@@ -3,9 +3,13 @@
   font-family: MontserratB;
   src: url("/src/assets/montserratbold.ttf");
 }
-@font-face {
+/* @font-face {
   font-family: MontserratR;
   src: url("/src/assets/montserratregular.ttf");
+} */
+@font-face {
+  font-family: MontserratR;
+  src: url("/src/assets/montserrat/Montserrat-Light.ttf");
 }
 *{
   font-family: MontserratB;
@@ -48,13 +52,15 @@ body{
 .logo-img {
   height: 30px;
   width: 100px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 /* Headings */
 .main-title {
+  margin-top: 0;
   margin-bottom: 0;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
 
 }
@@ -66,15 +72,18 @@ body{
   -webkit-text-fill-color: transparent;
 }
 #doThe{
+  font-size: 1.5rem;
   margin-bottom: 15px;
 }
 #sub2{
-  margin: 5px 0 5px 0;
+  font-family: MontserratR;
+  font-size: 1.5rem;
+  margin: 5px 0 8px 0;
 }
 .subtitle {
   margin: 0 0;
   font-family: MontserratR;
-  font-size: .7rem;
+  font-size: 1.5rem;
 }
 
 /* Video */
@@ -111,8 +120,8 @@ body{
 }
 
 .timer-circle {
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,7 +135,8 @@ body{
 
 .timer-label {
   margin-top: 0.5rem;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
+  color: #ffffff49;
   text-transform: uppercase;
 }
 
@@ -151,9 +161,49 @@ body{
 }
 
 @media (max-width: 488px) {
+  #doThe{
+    font-size: .7rem;
+    margin-bottom: 15px;
+  }
+  #sub2{
+    font-size: .7rem;
+    margin: 5px 0 8px 0;
+  }
+  .subtitle {
+    margin: 0 0;
+    font-family: MontserratR;
+    font-size: .7rem;
+  }
   .main-title {
     margin: 0 0 2px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+  
+  }
+  .logo-img {
+    margin-top: 10px;
+    height: 20px;
+    width: 80px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 808px) {
+  #doThe{
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  #sub2{
+    font-size: 1rem;
+    margin: 5px 0 8px 0;
+  }
+  .subtitle {
+    margin: 0 0;
+    font-family: MontserratR;
+    font-size: 1rem;
+  }
+  .main-title {
+    margin: 0 0 2px;
+    font-size: 1.4rem;
     font-weight: bold;
   
   }
