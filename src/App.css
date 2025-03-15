@@ -1,11 +1,11 @@
 /* styles.css */
 @font-face {
   font-family: MontserratB;
-  src: url("./src/assets/montserratbold.ttf");
+  src: url("/src/assets/montserratbold.ttf");
 }
 @font-face {
   font-family: MontserratR;
-  src: url("./src/assets/montserratregular.ttf");
+  src: url("/src/assets/montserratregular.ttf");
 }
 *{
   font-family: MontserratB;
