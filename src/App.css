@@ -188,6 +188,9 @@ body{
   }
 }
 @media (max-width: 808px) {
+  .app-container {
+  height: 100vh;}
+
   *{
      overflow-y:hidden;
   }
