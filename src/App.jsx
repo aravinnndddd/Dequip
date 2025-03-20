@@ -54,7 +54,7 @@ function App() {
           
 
           How I Made <span className="highlight"> ₹324,000+</span> With {" "} 
-            <span className="highlight">Faceless </span> Instagram CashPages 
+            <span className="highlight">Automated </span> Instagram CashPages 
           </h1>
           <p className="subtitle " id="doThe" ><b>And How You Can Do The SAME!</b></p>
           <p className="subtitle" id="sub2" >Watch The <b>Complete</b> Video Below</p>
@@ -88,7 +88,7 @@ function App() {
         {/* CTA Button */}
         {isTimerComplete && (
           <div>
-            <a href="https://www.youtube.com" className="cta-button">
+            <a href="https://superprofile.bio/vp/67d99830ae2d0900139dac9b" className="cta-button">
               Buy now
             </a>
           </div>
