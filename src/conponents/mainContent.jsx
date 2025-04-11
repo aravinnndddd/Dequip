@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Send } from "lucide-react";
 import "./App.css"; // Import the CSS file
-import vdo from "../public/vdo.mp4"
-import poster from "../public/poster2.png"
-import logo2 from "../public/logo2.png"
+import vdo from "../assets/vdo.mp4";
+import poster from "../assets/poster2.png";
+import logo2 from "../assets/logo2.png";
 function MainContent() {
   const [time, setTime] = useState({ hours: 0, minutes: 4, seconds: 8 });
   const [isTimerComplete, setIsTimerComplete] = useState(false);
