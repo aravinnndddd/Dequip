@@ -16,11 +16,13 @@
 
 }
 body{
+
   background: linear-gradient(to bottom right, black, black, #1e3a8a);
   margin:0;
 }
 /* Background and text color */
 .app-container {
+  
   height: 160vh;
   padding: 0;
   border-top: 2px solid #3f89ff;
@@ -32,7 +34,7 @@ body{
 }
 .container {
   position: absolute;
-  top:20px;
+  top:50px;
   max-width: 64rem;
   padding: 0rem 1rem;
   text-align: center;
@@ -196,10 +198,7 @@ body{
   .app-container {
   height: 100vh;}
 
-  *{
-     overflow-x:hidden;
-     overflow-y:hidden;
-  }
+ 
   #doThe{
     font-size: 1rem;
     margin-bottom: 15px;
