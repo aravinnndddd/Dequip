@@ -20,6 +20,15 @@ body{
   background: linear-gradient(to bottom right, black, black, #1e3a8a);
   margin:0;
 }
+.logorn{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: #2563eb 1px solid;
+  margin-bottom: 20px;
+}
+
+
 /* Background and text color */
 .app-container {
   

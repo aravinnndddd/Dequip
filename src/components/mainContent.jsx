@@ -3,7 +3,7 @@ import { Send } from "lucide-react";
 import "../components/App.css"; // Import the CSS file
 import vdo from "../assets/vdo.mp4";
 import poster from "../assets/poster2.png";
-import logo2 from "../assets/logo2.png";
+import logo1 from "../assets/logo1.png";
 function MainContent() {
   const [time, setTime] = useState({ hours: 0, minutes: 4, seconds: 8 });
   const [isTimerComplete, setIsTimerComplete] = useState(false);
@@ -42,7 +42,7 @@ function MainContent() {
     
     <div className="app-container">
       <div className="container">
-    
+    <center><div className="logorn"><img src={logo1} alt="logo"  width={100}/></div></center>
         {/* Main Content */}
         <div>
           <h2 className="subtitle">Limited Time Training Reveals:</h2>
