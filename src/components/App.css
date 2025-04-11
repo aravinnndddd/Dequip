@@ -21,8 +21,8 @@ body{
   margin:0;
 }
 .logorn{
-  width: 75px;
-  height: 75px;
+  width: 65px;
+  height: 65px;
   border-radius: 50%;
   border: #2563eb 1px solid;
   margin-bottom: 20px;
@@ -43,7 +43,7 @@ body{
 }
 .container {
   position: absolute;
-  top:30px;
+  top:20px;
   max-width: 64rem;
   padding: 0rem 1rem;
   text-align: center;

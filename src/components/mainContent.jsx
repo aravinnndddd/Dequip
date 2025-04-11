@@ -42,7 +42,7 @@ function MainContent() {
     
     <div className="app-container">
       <div className="container">
-    <center><div className="logorn"><img src={logo1} alt="logo"  width={75}/></div></center>
+    <center><div className="logorn"><img src={logo1} alt="logo"  width={65}/></div></center>
         {/* Main Content */}
         <div>
           <h2 className="subtitle">Limited Time Training Reveals:</h2>
