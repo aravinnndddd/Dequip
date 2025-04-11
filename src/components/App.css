@@ -43,7 +43,7 @@ body{
 }
 .container {
   position: absolute;
-  top:50px;
+  top:30px;
   max-width: 64rem;
   padding: 0rem 1rem;
   text-align: center;
