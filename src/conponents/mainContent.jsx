@@ -4,7 +4,6 @@ import "./App.css"; // Import the CSS file
 import vdo from "../public/vdo.mp4"
 import poster from "../public/poster2.png"
 import logo2 from "../public/logo2.png"
-import Loading from "./loading";
 function MainContent() {
   const [time, setTime] = useState({ hours: 0, minutes: 4, seconds: 8 });
   const [isTimerComplete, setIsTimerComplete] = useState(false);
