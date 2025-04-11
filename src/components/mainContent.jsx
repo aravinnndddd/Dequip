@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Send } from "lucide-react";
-import "./App.css"; // Import the CSS file
+import "../components/App.css"; // Import the CSS file
 import vdo from "../assets/vdo.mp4";
 import poster from "../assets/poster2.png";
 import logo2 from "../assets/logo2.png";

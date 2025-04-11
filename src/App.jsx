@@ -1,8 +1,8 @@
 
 import { useState, useEffect } from "react";
-import Loader from "./conponents/loading";
-import "./App.css";
-import MainContent from "./conponents/mainContent";
+import Loader from "./components/loading";
+import "./components/App.css";
+import MainContent from "./components/mainContent";
 
 function App() {
   const [loading, setLoading] = useState(true);
