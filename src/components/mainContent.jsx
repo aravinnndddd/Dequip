@@ -54,7 +54,7 @@ function MainContent() {
           <div>
             <h2 className="subtitle">Limited Time Opportunity Reveals:</h2>
             <h1 className="main-title">
-              How to<span className="highlight"> Make Money</span> Using
+               Make Money Using
               Instagram <span className="highlight"> Without Selling </span>
               Anything!
             </h1>
