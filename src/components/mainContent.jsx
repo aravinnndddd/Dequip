@@ -5,7 +5,7 @@ import vdo from "../assets/vdo.mov";
 import poster from "../assets/poster2.png";
 import logo1 from "../assets/logo1.png";
 function MainContent() {
-  const [time, setTime] = useState({ hours: 0, minutes: 5, seconds: 45 });
+  const [time, setTime] = useState({ hours: 0, minutes: 6, seconds: 5 });
   const [isTimerComplete, setIsTimerComplete] = useState(false);
 
   useEffect(() => {
