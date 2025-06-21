@@ -3,7 +3,7 @@ import { Send } from "lucide-react";
 import "../components/App.css"; // Import the CSS file
 import vdo from "../assets/vdo.mov";
 import poster from "../assets/poster2.png";
-import logo1 from "..//assets/logo1.jpg";
+import logo1 from "../assets/logo1.jpg";
 
 const MainContent = () => {
   const [time, setTime] = useState({ hours: 0, minutes: 7, seconds: 0 });
