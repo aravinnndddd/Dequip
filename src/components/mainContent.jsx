@@ -3,9 +3,9 @@ import { Send } from "lucide-react";
 import "../components/App.css"; // Import the CSS file
 import vdo from "../assets/vdo.mov";
 import poster from "../assets/poster2.png";
-import logo1 from "../assets/logo1.JPG";
+import logo1 from "../assets/logo1.jpg";
 function MainContent() {
-  const [time, setTime] = useState({ hours: 0, minutes: 6, seconds: 5 });
+  const [time, setTime] = useState({ hours: 0, minutes: 7, seconds: 0 });
   const [isTimerComplete, setIsTimerComplete] = useState(false);
 
   useEffect(() => {
@@ -47,14 +47,14 @@ function MainContent() {
         <div className="container">
           <center>
             <div className="logorn">
-              <img src={logo1} alt="logo" width={65} />
+              <img src={logo1} alt="logo" width={65} style={{borderRadius:"50%"}} />
             </div>
           </center>
           {/* Main Content */}
           <div>
             <h2 className="subtitle">Limited Time Opportunity Reveals:</h2>
             <h1 className="main-title">
-              How to<span className="highlight"> Make Money</span> Using
+            <span className="highlight"> Make Money</span> Using
               Instagram <span className="highlight"> Without Selling </span>
               Anything!
             </h1>
