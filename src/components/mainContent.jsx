@@ -56,6 +56,7 @@ function MainContent() {
             <h1 className="main-title">
             <span className="highlight"> Make Money</span> Using
               Instagram <span className="highlight"> Without Selling </span>
+               Make Money Using Instagram <span className="highlight"> Without Selling </span>
               Anything!
             </h1>
             <p className="subtitle " id="doThe">
