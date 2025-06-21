@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Send } from "lucide-react";
 import "../components/App.css"; // Import the CSS file
 import vdo from "../assets/vdo.mov";
 import poster from "../assets/poster2.png";
 import logo1 from "../assets/logo1.JPG";
 function MainContent() {
-  const [time, setTime] = useState({ hours: 0, minutes: 6, seconds: 5 });
+  const [time, setTime] = useState({ hours: 0, minutes: 7, seconds: 0 });
   const [isTimerComplete, setIsTimerComplete] = useState(false);
 
   useEffect(() => {
