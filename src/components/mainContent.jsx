@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Send } from "lucide-react";
 import "../components/App.css"; // Import the CSS file
 import vdo from "../assets/vdo.mov";
