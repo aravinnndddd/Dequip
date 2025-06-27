@@ -4,9 +4,8 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 
 export default defineConfig({
-  base: '/Dequip/', 
   plugins: [react()],
-  assetsInclude: ['**/*.JPG'],
+  assetsInclude: ['**/*.JPG'], // Add this line
   resolve: {
     alias: {
       src: path.resolve(__dirname, 'src'),
